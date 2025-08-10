@@ -6,3 +6,135 @@
   font-weight: 400;
   font-style: normal;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* shared styles  */
+.display-flex{
+    display: flex;
+}
+.dark-1{
+    color: #131313;
+}
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    color: #727272;
+}
+.dark-4{
+    color: #A1A1A1;
+}
+.dark-5{
+    color: #D0D0D0;
+}
+.dark-6{
+    color: #E7E7E7;
+}
+.dark-7{
+    color:#F3F3F3;
+}
+.btn-color{
+    background-color: rgba(255, 144, 14, 1)
+}
+.btn-text{
+    color: rgba(255, 255, 255, 1);
+}
+.shared-des{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* header styles */
+header{
+    max-width: 1920px;
+    height: 1057.6px;
+    margin: 0px auto;
+    background: rgba(255, 144, 14, 0.1);
+}
+/* nav-bar styles */
+.navbar{
+    gap: 538px;
+    
+}
+.nav-title{
+    width: 245px;
+    height: 42px;
+    margin: 40px 0px 0px 176px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.navbar .links{
+    width: 381.6px;
+    height: 20.8px;
+    justify-content: space-between;
+    margin: 50px 192px 0px 0px;
+    
+}
+.navbar .link{
+    list-style: none;
+}
+.navbar .link a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.8px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.banner{
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.banner-title-blog{
+    width: 690px;
+    height: 180px;
+    margin: 82px 423px 0px 423px;
+    text-align: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    margin-bottom: 26px;
+}
+.banner-title{
+width: 690px;
+height: 180px;
+font-size: 51px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+}
+.banner-describtion{
+    width: 695px;
+    height: 42px;
+}
+.banner-button{
+    width: 144px;
+    height: 52px;
+    margin: 0px 696px;
+    border: none;
+    margin-bottom: 36px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}     
+.banner-img{
+    width: 1152px;
+    height: 560px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    /* margin-top: 4px 192px 3px; */
+}                                                
