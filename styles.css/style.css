@@ -202,6 +202,7 @@ main{
     max-width: 1440px;
     margin: 0px auto;
     height: 600px;
+    margin-bottom: 104px;
 }
 .features-quick{
     gap: 58px;
@@ -283,4 +284,145 @@ main{
     .info-btn{
         margin-top: 0px;
     }
+}
+/* love-features styles  */
+.love-features{
+    max-width: 1152px;
+    height: 847px;
+    margin: 0 auto;
+    margin-top: 83px;
+}
+.love-info{
+    width: 469px;
+    height: 770px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.love-info-des{
+    height: 62px;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    /* margin-bottom: px; */
+    text-align: left;
+
+}
+.love-info-cards{
+    height: 595px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 25px;
+    gap: 5px;
+}
+.love-info-cards .card{
+    height: 137px;
+    margin-top: 24px;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    
+    /* box-shadow: rgba(255, 255, 255, 1); */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 32px;
+    gap: 16px;
+
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 1);
+    /* margin-bottom: 16px; */
+}
+
+.love-info-cards .card .card-title{
+    height: 18px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card-des{
+    height: 62px;
+    text-align: left;
+}
+.love-image{
+    position: relative;
+    width: 640px;
+    height: 847px;
+   
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-image: url(../images/architect.png);
+    background-position: top right, bottom right;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 2px solid red;
+}
+.love-image .love-profile{
+    /* background-image: url(../images/architect.png); */
+    width: 566px;
+    height: 786px;
+    background-position: top right, bottom right;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.love-profile{
+    position: absolute;
+    z-index: 1;
+    top: 200px;
+}
+.love-btn{
+    position: absolute;
+    z-index: 2;
+    width: 274px;
+    height: 160px;
+    padding: 150px;
+    
+    
+}
+.love-experience{
+    padding: 15px;
+    margin-left: 10px;
+    text-align: center;
+    /* width: 206px;
+    height: 87px; */
+    
+    /* margin: 36px 34px; */
+}
+#Experience-title,
+#Experience-year{
+    color: #FFFFFF;
+}
+#Experience-year{
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#Experience-title{
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
 }
